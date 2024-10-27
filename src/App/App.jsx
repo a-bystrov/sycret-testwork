@@ -13,14 +13,12 @@ export default function App() {
   }
 
   return(
-    <Router>
-      <div>
+    <Router basename='/sycret-testwork'>
         <Routes>
           <Route exact path='/' element={ <CertsPage setCurrentCert = {setCurrentCert}/> } />
           <Route path='/contacts' element={ <ContactsPage handleSubmitForm={handleSubmitForm}/> } />
           <Route path='/payment' element={ <PaymentPage /> } /> 
         </Routes>
-      </div> 
     </Router>
   )
 }
