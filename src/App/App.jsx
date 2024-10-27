@@ -2,7 +2,7 @@ import { useState } from 'react'
 import CertsPage from '../CertsPage/CertsPage'
 import ContactsPage from '../ContactsPage.jsx/ContactsPage'
 import PaymentPage from '../PaymentPage/PaymentPage'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {
   const [currentCertId, setCurrentCert] = useState()
@@ -13,12 +13,12 @@ export default function App() {
   }
 
   return(
-    <Router basename='/sycret-testwork'>
+    <HashRouter>
         <Routes>
           <Route exact path='/' element={ <CertsPage setCurrentCert = {setCurrentCert}/> } />
           <Route path='/contacts' element={ <ContactsPage handleSubmitForm={handleSubmitForm}/> } />
           <Route path='/payment' element={ <PaymentPage /> } /> 
         </Routes>
-    </Router>
+    </HashRouter>
   )
 }
