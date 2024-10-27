@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sycret-testwork/uuuuuuu/static/css/main.7ee850f2.css",
-    "main.js": "/sycret-testwork/uuuuuuu/static/js/main.cf17d56c.js",
-    "static/media/certs-bg.jpg": "/sycret-testwork/uuuuuuu/static/media/certs-bg.882cb0c0d5668454cb16.jpg",
-    "index.html": "/sycret-testwork/uuuuuuu/index.html",
-    "main.7ee850f2.css.map": "/sycret-testwork/uuuuuuu/static/css/main.7ee850f2.css.map",
-    "main.cf17d56c.js.map": "/sycret-testwork/uuuuuuu/static/js/main.cf17d56c.js.map"
+    "main.css": "/sycret-testwork/static/css/main.7673531a.css",
+    "main.js": "/sycret-testwork/static/js/main.cf17d56c.js",
+    "static/media/certs-bg.jpg": "/sycret-testwork/static/media/certs-bg.882cb0c0d5668454cb16.jpg",
+    "index.html": "/sycret-testwork/index.html",
+    "main.7673531a.css.map": "/sycret-testwork/static/css/main.7673531a.css.map",
+    "main.cf17d56c.js.map": "/sycret-testwork/static/js/main.cf17d56c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee850f2.css",
+    "static/css/main.7673531a.css",
     "static/js/main.cf17d56c.js"
   ]
 }
