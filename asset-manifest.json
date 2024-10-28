@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sycret-testwork/static/css/main.d18a76ff.css",
-    "main.js": "/sycret-testwork/static/js/main.cf17d56c.js",
+    "main.js": "/sycret-testwork/static/js/main.287bf10a.js",
     "static/media/certs-bg.jpg": "/sycret-testwork/static/media/certs-bg.882cb0c0d5668454cb16.jpg",
     "index.html": "/sycret-testwork/index.html",
     "main.d18a76ff.css.map": "/sycret-testwork/static/css/main.d18a76ff.css.map",
-    "main.cf17d56c.js.map": "/sycret-testwork/static/js/main.cf17d56c.js.map"
+    "main.287bf10a.js.map": "/sycret-testwork/static/js/main.287bf10a.js.map"
   },
   "entrypoints": [
     "static/css/main.d18a76ff.css",
-    "static/js/main.cf17d56c.js"
+    "static/js/main.287bf10a.js"
   ]
 }
