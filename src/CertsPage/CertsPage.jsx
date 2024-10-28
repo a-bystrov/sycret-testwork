@@ -12,6 +12,12 @@ export default function CertsPage(props) {
     .then(response => response.json()).then(result => setCerts(result.data))
   }, [])
 
+  useEffect(() => {
+    if(certs.length !== 0) {
+      props.setCurrentCert(certs[0].ID)
+    }
+  }, [certs])
+
   function handleClickButtonExecute() {
     navigate('/contacts')
   }
